@@ -4,30 +4,27 @@ body{
   display: block;
 }
 
-.contianer{
-  text-align:center;
+.container, .names-container{
+  text-align: center;
   width: 70%;
   margin: auto;
 }
 
-h1{
+.container h1{
   margin: 30px;
+  margin-bottom: 5rem;
   font-family: lobster, cursive;
   text-shadow: 5px 0 black;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #4ECCA3;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
 }
 
 .dice {
   text-align: center;
   display: inline-block;
   
-}
-
-p {
-  font-family: indie flower, cursive;
-  color: #4ECCA3;
-  font-size: 2rem;
 }
 
 img {
@@ -54,10 +51,48 @@ img {
   color: white;
   transform: translateY(-5px);
   transition: .2s ease;
+  }
+
+
+.names-container{
+  display:flex;
+  justify-content: center;
 }
-    
+
+.player-box {
+  margin: 1.5rem;
+  
+
+ 
+}
+.names-container label{
+display: block;
+width: auto;
+font-family: indie flower, cursive;
+color: #4ECCA3;
+font-size: 1.5rem;
+margin-bottom: .5rem;
+
+}
+
+input[type="text"] {
+    font-size:1.5rem;
+    text-align: center;
+    font-family: indie flower;
+
+}
+
+.names-container input{
+  width: 204px;
+  height: 1.8rem;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+
+  }
+
 footer{
-  margin-top: 5%;
+  margin-top:4%;
   color: #eeeeee;
   text-align: center;
   font-family: indie flower, cursive;
